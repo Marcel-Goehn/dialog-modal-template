@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <dialog id="overlay">
+        <div class="wrapper">
+            <h2>Login</h2>
+            <form onsubmit="return false">
+                <input type="email" name="email" id="email">
+                <input type="password" name="password" id="password">
+                <button type="submit">Login</button>
+                <button onclick="closeDialog()" type="button">Close</button>
+            </form>
+        </div>
+    </dialog>
+
+    <button onclick="showLoginDialog()">Login</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

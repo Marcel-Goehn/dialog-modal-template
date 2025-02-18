@@ -1,0 +1,12 @@
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.256);
+}
+
+dialog {
+    padding: 0;
+    outline: none;
+}
+
+dialog .wrapper {
+    padding: 16px;
+}
